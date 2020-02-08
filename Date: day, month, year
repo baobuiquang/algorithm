@@ -1,0 +1,10 @@
+/*
+Leap year: (year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0))
+*/
+
+//Function: Number of days in a month
+int nDayOfMonth(int month, int year)
+{
+	return 28 + (month == 2) * ((year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0)))
+		      + (month != 2) * (2 + (month <= 7)*(month%2 != 0) + (month >= 8)*(month%2 == 0));
+}
