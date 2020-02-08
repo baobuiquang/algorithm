@@ -1,0 +1,10 @@
+//Function: Palindrome number
+//Need: Function reverse()
+bool isPalindrome(int num)
+{
+	if (num == reverse(num))
+	{
+		return true;
+	}
+	return false;
+}
