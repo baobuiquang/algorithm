@@ -3,7 +3,7 @@ Most used functions, tricks, algorithms, etc
 
 ![reposize-image] ![con-image] ![commit-image]
 
-> Language: C/C++
+> Language: C
 
 [reposize-image]: https://img.shields.io/github/repo-size/buiquangbao/most_used?label=Repo%20size&style=flat-square
 [con-image]: https://img.shields.io/github/contributors/buiquangbao/most_used?color=blue&label=Contributor%28s%29&style=flat-square
