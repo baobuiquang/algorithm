@@ -1,0 +1,3 @@
+	char ch = '1';
+	int num = (int)ch - (int)'0'; //(int)ch means the ASCII of ch
+	printf("%d", num);
