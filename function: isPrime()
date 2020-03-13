@@ -17,7 +17,6 @@ bool isPrime(int num)
 	return true;
 }
 
-
 /*
 1 is not a prime.
 All primes except 2 are odd.
